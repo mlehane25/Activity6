@@ -1,39 +1,52 @@
 #map {
-    height: 400px;
-    width: 70%;
-    display: inline-block;
+	height: 600px;
+	width: 100%;
+	display: inline-block;
 }
 
 .leaflet-popup-content p {
-    margin: 0.2em 0;
+	margin: 0.2em 0;
 }
 
-#panel {
-    width: 25%;
-    padding: 20px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    line-height: 42px;
+.sequence-control-container {
+	width: 350px;
+	height: 35px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	line-height: 45px;
+	text-align: center;
+	border: solid gray 1px;
 }
 
 .range-slider {
-    width: 55%;
+	width: 250px;
 }
 
 .step {
-	width: 20%;
+	width: 40px;
 }
 
 .step img {
 	width: 100%;
+	height: auto;
 }
 
-
 #forward {
-    float: right;
+	float: right;
+	padding-top: 3px;
 }
 
 #reverse {
-    float: left;
+	float: left;
+	padding-top: 3px;
+}
+
+.legend-control-container {
+	width: 150px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	border: solid gray 1px;
 }
